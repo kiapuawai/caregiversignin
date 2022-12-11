@@ -1,15 +1,133 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Title of the document</title>
-</head>
 
-<body>
-<h1>Welcome</h1>
-<h2>Select the site you would like to sign in to:</h2>
-  <a href="https://youthorizons.sharepoint.com/sites/caregivercomms">Tūhono</a>
-  <br>
-  <a href="https://yhcaregivers.elmotalent.co.nz/">Manawataki</a>
-</body>
+<!doctype html>
+<html lang="en-US"><head>
+    <title>Caregiver Sign</title><meta name="robots" content="noindex" />
+    <meta http-equiv="X-UA-Compatible" content="IE&#61;edge,Chrome&#61;1" />
+    <meta name="viewport" content="width&#61;device-width, initial-scale&#61;1, maximum-scale&#61;1.0, user-scalable&#61;no" />
+    <meta http-equiv="Content-Type" content="text/html; charset&#61;utf-8" /><meta name="referrer" content="origin-when-cross-origin" />
+    <link rel="shortcut icon" href="https://assets.website-files.com/632a72e6d242c22577cb2452/636ddf6e5f2ba97d4d47c86d_Favicon.png" />
+    <style>
+        html, body {
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:#d8eff2; 
+            height: 100%
+        }
+        .container {
+            display: table;
+            height: 100%;
+            width: 100%;
+            
+        }
+        .content-body {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        a {
+            text-decoration: none;
+            color: #2470cc;
+        }
 
-</html>
+        a:hover {
+            text-decoration: none;
+        }
+        .content {
+            /*customize position*/
+            padding: 50px;
+            max-width: 163px;
+            margin:auto;
+            border: 2px solid white;
+            background-color: white;
+            border-radius: 15px;
+        }
+        h1 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-weight: normal;
+        }
+        p {
+            font-size: 17px;
+        }
+        .button {
+            width: 123px;
+            background-color: rgb(133,135,139); /*customize button color */
+            border-color: #2D8CFF;
+            padding: 12px 10px;
+            display: inline-block;
+            text-align: center;
+            margin: 10px 0;
+            transition: .3s ease;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: rgb(87,188,211);  /*customize button color */
+        }
+        .btn-text {
+            color: white;   /*customize button font color */
+            font-size: 17px;
+        }
+        
+        .row > div {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .right {
+            margin-left: 0px;
+        }
+        .right > span{
+            display: block;
+        }
+
+                
+
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 27px;
+            }
+            .row {
+                margin-bottom: 0px;
+            }
+            .row > div {
+                display: block;
+            }
+
+            
+
+            .content {
+                margin: auto;
+            }
+
+        }
+    </style></head><body>
+<div class="container">
+    <div class="content-body" role="main" aria-label="main content">
+        <div class="HiddenText"><a id="the-main-content" tabindex="-1"></a></div>
+        <div class="content">
+            <div class="row">
+                <img src="logo.png" alt="Kia Puāwai Logo" />  
+            </div>
+            <div class="row">
+                <p>Select service:</p>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <a href="https://yhcaregivers.elmotalent.co.nz/" class="button"><span class="btn-text">Manawataki</span></a>
+                </div>
+                <div class="right">
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <a href="https://youthorizons.sharepoint.com/sites/caregivercomms" class="button">
+                        <span class="btn-text">Tūhono</span>
+                    </a>
+                </div>
+                <div class="right">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    
+</div>
+</body></html>
